@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>timesama</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="conteiner">
+        <div id="timerExpiredMessage" style="display: none; color: red; font-size: 24px;">Tempo esgotado!</div>
+
+        <div class="input_time">
+            <input type="number" id="hour" value="00">
+            
+            <input type="number" id="min" value="00">
+            
+            <input type="number" id="sec" value="00">
+        </div>
+
+        <div class="buttons">
+            <button id="start" onclick="startTimer()" >▶</button>
+            <button id="pause" onclick="pauseTimer()">⏸</button>
+        </div>
+        <audio id="audio" src="efeito.mp3"></audio>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
