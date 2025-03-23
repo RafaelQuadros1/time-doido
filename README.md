@@ -31,5 +31,4 @@ Este projeto é um contador regressivo que permite definir um tempo em horas, mi
 - **JavaScript** para a lógica do temporizador.
 
 ## 📌 Melhorias Futuras
-- Adicionar um botão de reset para reiniciar o temporizador.
-- Permitir escolher diferentes sons de alarme.
+- Adicionar um botão de reset para zerar o tempo 
